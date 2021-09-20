@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Database - TheBlogRank</title>
+
+    <link rel="stylesheet" href="Stylesheets/database.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="Photos/TBR.png">
+</head>
+<body>
+    <nav>
+        <div class="burger">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <div id='searchBlogs' class="instant-search">
+            <div class="instant-search__input-container">
+                <input id="searchBar" class="instant-search__input" type="text" spellcheck="false" placeholder="Search Blogs">
+                <div class="fa fa-search"></div>
+            </div>
+            <div id="blogList" class="instant-search__results-container">
+                <!--POPULATING THIS WITH SEARCH RESULTS-->
+            </div>
+        </div>
+        <div class="navigation">
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="database.html" id="database">Database</a></li>
+                <li id="submit-a-blog"><a href="submit-a-blog.html">Submit a Blog</a></li>
+            </ul>
+        </div>
+
+        <p id="title"><a href="index.html">TheBlogRank</a></p>
+        
+    </nav>
+
+    <!--DATABASE LANDING PAGE-->
+    <section class="database">
+        <div class="database-container">
+            <div class="database-img">
+                <img src="Photos/Database-img.png" alt="Image of people fighting over trophy">
+            </div>
+            <div class="database-text">
+                <h1>How Do We Choose Who To Feature?</h1>
+                <p>We believe that only the <span><strong>very best</strong></span> blogs should feature in our top 50 lists so that only the best content gets promoted. We understand that bloggers would like <span><strong>backlinks</strong></span> to their website to increase their own <span><strong>Google search ranking</strong></span>. <br> Therefore to make it fair, we measure the quality of blogs through a few parameters such as: </p>
+                <br>
+                <strong>
+                <ul>
+                    <li>Domain Authority</li>
+                    <li>Social Engagement</li>
+                    <li>Relevance and quality of blog content</li>
+                    <li>Freshness</li>
+                    <li>Uniqueness</li>
+                </ul>
+                </strong>
+                <br>
+                <p></p>
+                <p>We get hundreds of visitors a day and it's only fair that they receive <span><strong>the best</strong></span> information. We also do our own research into which blogs we want to have on our website. <br><br>If you would like access to the database of bloggers for your own social outreach or think that your blog is better than some of the ones we have listed, feel free to send it in <span><strong><a href="#">here</a></strong></span> and email us at <span><strong>theblogrank@gmail.com</strong></span>. </p>
+            </div>
+        </div>
+    </section>
+
+    <!--FAST TRACK SECTION-->
+    <section class="fast-track">
+        <div class="fast-track-container">
+            <div class="fast-track-text">
+                <h3>Want to fast-track your way to the <span>Blog of The Week</span> or one of our <span>Top 50 lists</span>?</h3>
+                <p>Email <span><strong>theblogrank@gmail.com</strong></span> to get more info.</p>
+            </div>
+
+            <div class="fast-track-prices">
+                <div class="fast-track-prices-container">
+                    <h3>Prices</h3>
+                    <ul>
+                        <li>Front Page: <strike><strong>£10.99</strong></strike> Free</li>
+                        <li>Top 50 List: <strike><strong>£3.99</strong></strike> Free</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--FOOTER-->
+
+    <section class="footer">
+        <div class="flexbox3">
+
+            <div class="footer1">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">Drum Blogs</a></li>
+                    <li><a href="#">Fitness Blogs</a></li>
+                    <li><a href="#">Finance Blogs</a></li>
+                    <li><a href="#">Business Blogs</a></li>
+                    <li><a href="#">Technology Blogs</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer1">
+                <h4>Submit Your Blog</h4>
+                <ul>
+                    <li><a href="submit-a-blog.html">Front-Page Feature</a></li>
+                    <li><a href="database.html">Pricing</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer1">
+                <h4>More Links</h4>
+                <ul>
+                    <li><a href="blog1.html">5 Tips on how to learn to play the drums</a></li>
+                    <li><a href="blog2.html">Electric vs Acoustic Drums</a></li>
+                    <li><a href="blog3.html">5 Reasons why you should do grades</a></li>
+                </ul>
+
+            </div>
+
+            <div class="footer1">
+                <h4>Socials</h4>
+                <ul>
+                    <li>
+                        <p><a href="https://www.facebook.com/groups/605101503535239" target="_blank">Facebook</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.reddit.com/r/DrumRudimentz/" target="_blank">Reddit Community</a></p>
+                    </li>
+                    <li>
+                        <p><a href="https://www.pinterest.co.uk/mosesdrumming/_created/" target="_blank">Pinterest page</a></p>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </section>
+
+    <div class="flexbox4">
+        <footer>
+             <p> &copy; mosesdrumming.org </p>
+             <p><a href="https://www.termsfeed.com/live/c6278922-18d1-4f76-9b21-306b25b6e767">Terms and Conditions</a></p>
+        </footer>
+    </div>
+
+    <script src="Scripts/instant-search.js" type="module"></script>
+    <script src="Scripts/script.js"></script>
+</body>
+</html>

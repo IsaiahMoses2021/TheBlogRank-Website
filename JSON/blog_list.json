@@ -1,0 +1,22 @@
+[
+  {
+    "BlogID": 1,
+    "BlogType": "Drum Blogs",
+    "BlogRank": 1
+  },
+  {
+    "BlogID": 2,
+    "BlogType": "Fitness Blogs",
+    "BlogRank": 2
+  },
+  {
+    "BlogID": 3,
+    "BlogType": "Lifestyle Blogs",
+    "BlogRank": 3
+  },
+  {
+    "BlogID": 4,
+    "BlogType": "Finance Blogs",
+    "BlogRank": 4
+  }
+]
